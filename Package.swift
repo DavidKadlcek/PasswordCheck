@@ -4,19 +4,19 @@
 import PackageDescription
 
 let package = Package(
-    name: "Zxcvbn",
+    name: "ZxcvbnSwift",
     platforms: [
         .iOS(.v13)
     ],
     products: [
         .library(
-            name: "Zxcvbn",
-            targets: ["Zxcvbn"]),
+            name: "ZxcvbnSwift",
+            targets: ["ZxcvbnSwift"]),
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "Zxcvbn",
+            name: "ZxcvbnSwift",
             dependencies: [],
             exclude: ["Info.plist"],
             resources: [
