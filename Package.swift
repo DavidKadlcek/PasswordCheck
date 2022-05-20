@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
 	name: "Zxcvbn",
 	platforms: [
-		.iOS(.v12)
+		.iOS(.v8)
 	],
 	products: [
 		.library(
@@ -15,7 +15,7 @@ let package = Package(
 	targets: [
 		.target(
 			name: "Zxcvbn",
-			path: "Zxcvbn"
+			path: "./Zxcvbn"
 		)
 	]
 )
